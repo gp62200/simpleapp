@@ -3,6 +3,21 @@ var app=express();
 
 app.get("/",(req,res)=>{
     res.send(
+        "<h1>Vijay sale</h1>"
+        +"</hr>"
+        +"</h3>Smart devices for sale</h3>"
+        +"<br>"
+        +"<ol>"
+        +"<li>laptops</li>"
+        +"<li>computers</li>"
+        +"<li>watches</li>"
+        +"<li>earphones</li>"
+        +"</ol>"
+    );
+});
+
+app.get("/aboutus",(req,res)=>{
+    res.send(
         "<h1>Vijay sales</h1>"
         +"</hr>"
         +"</h3>Smart devices for sale</h3>"
